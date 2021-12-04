@@ -51,7 +51,7 @@ local.properties
 .apt_generated_test/
 
 # Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
+.cache-com.gulukal.myMdb.main
 .scala_dependencies
 .worksheet
 
