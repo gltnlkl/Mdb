@@ -56,7 +56,7 @@ public class MenuMethod {
 
 	public String movieDBqueryWtypeSelection(GlobalString globalization) {
 
-		MenuItems menuItems = new MenuItems();
+		MenuItem menuItems = new MenuItem();
 
 		return MyUtil.showMenuReturnString(globalization.getString("Globalization.TYPE_QUERY"),
 				menuItems.movieTypeSelectionMenuItems(), globalization);

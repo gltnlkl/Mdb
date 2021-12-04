@@ -52,7 +52,7 @@ public class Server implements Runnable {
 
 					ReadFromLocalTsvDao.movie(actorObject);
  
-					System.out.println("Sorguya devam etmek icin lütfen aktor ismi giriniz.\nCikis icin 0.");
+					System.out.println("Sorguya devam etmek icin lutfen aktor ismi giriniz.\nCikis icin 0.");
 					
 					printWriter.println(sendMassege);
 					printWriter.flush();

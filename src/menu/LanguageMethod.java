@@ -7,7 +7,7 @@ public class LanguageMethod {
 
 	public GlobalString g11n() {
 
-		MenuItems menuItems = new MenuItems();
+		MenuItem menuItems = new MenuItem();
 
 		boolean isloop = false;
 		do {

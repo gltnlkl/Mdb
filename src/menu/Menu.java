@@ -11,7 +11,7 @@ public class Menu {
 
 		LanguageMethod languageMethod = new LanguageMethod();
 
-		MenuItems menuItems = new MenuItems();
+		MenuItem menuItems = new MenuItem();
 
 		GlobalString globalization = languageMethod.g11n();
 

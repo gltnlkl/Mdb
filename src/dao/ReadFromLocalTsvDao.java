@@ -25,13 +25,11 @@ public class ReadFromLocalTsvDao implements Serializable {
 	private static String pathMovies = ProjectInformation.getString("DatabaseInformation.PATH_MOVIES_TSV");
 	
 	
-	
-	
-	
+
 
 	public static void main(String[] args) {
 
-		String actorName = GenUtil.readString("Lütfen aratmak istediğiniz aktör ismini giriniz.");
+		String actorName = GenUtil.readString("Lutfen aratmak istediginiz aktor ismini giriniz.");
 
 		ActorDto actorObject = readActorName(actorName);
 
@@ -41,9 +39,6 @@ public class ReadFromLocalTsvDao implements Serializable {
 	
 	
 	
-	
-	
-
 	public static ActorDto fileToActor(String row) {
 
 		List<String> listSentence = new ArrayList<>();

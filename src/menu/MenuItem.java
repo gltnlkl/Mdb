@@ -5,7 +5,7 @@ import java.util.Map;
 
 import general.g11N.GlobalString;
 
-public class MenuItems {
+public class MenuItem {
 
 	protected Map<Integer, String> mainMenuItems(GlobalString globalization) {
 
